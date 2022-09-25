@@ -8,15 +8,23 @@ a=12
 b=input("Who are you")
 
 
-home={'k': 12,
-      'y':99
+#Dictionaries and accessing dictionary items
+home={
+        'k': 12,
+        'y':99
       }
 print(home)
 print(home['k'])
 
+
+#Tuples and accessing items in a tuple
 myself=("boy",15,10.1)
 print(myself)
+print(myself[0])
+print(myself[-2:]
 
+
+#Lists
 mylist=["my",15,10.1]
 print(mylist)
 

@@ -2,11 +2,11 @@
 a= 100
 b= 101
 c= 102
-if a>b or a>c:
+if a>b and a>c:
     print(a,"a is greatest")
-elif b>a or b>c:
+elif b>a and b>c:
     print(b,"b is greatest")
-elif b==a or a==c or c==b:
+elif b==a and a==c:
     print("Equal numbers")
 else:
     print(c,"c is the greatest")
